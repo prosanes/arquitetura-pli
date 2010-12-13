@@ -1,0 +1,710 @@
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R0 ← R0 + RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R1 ← R1 + RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados + R2)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados + R3)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados + R4)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(R0 ← R0 + RB)	(PC ← PC + 1)!
+(RB ← R0)	(R1 ← R1 + RB)	(PC ← PC + 1)!
+(R2 ← R0 + R2)	(PC ← PC + 1)!
+(R3 ← R0 + R3)	(PC ← PC + 1)!
+(R4 ← R0 + R4)	(PC ← PC + 1)!
+(RB ← R1)	(R0 ← R0 + RB)	(PC ← PC + 1)!
+(RB ← R1)	(R1 ← R1 + RB)	(PC ← PC + 1)!
+(R2 ← R1 + R2)	(PC ← PC + 1)!
+(R3 ← R1 + R3)	(PC ← PC + 1)!
+(R4 ← R1 + R4)	(PC ← PC + 1)!
+(R0 ← R0 + R2)	(PC ← PC + 1)!
+(R1 ← R1 + R2)	(PC ← PC + 1)!
+(RA ← R2)	(R2 ← RA + R2)	(PC ← PC + 1)!
+(RA ← R2)	(R3 ← RA + R3)	(PC ← PC + 1)!
+(RA ← R2)	(R4 ← RA + R4)	(PC ← PC + 1)!
+(R0 ← R0 + R3)	(PC ← PC + 1)!
+(R1 ← R1 + R3)	(PC ← PC + 1)!
+(RA ← R3)	(R2 ← RA + R2)	(PC ← PC + 1)!
+(RA ← R3)	(R3 ← RA + R3)	(PC ← PC + 1)!
+(RA ← R3)	(R4 ← RA + R4)	(PC ← PC + 1)!
+(R0 ← R0 + R4)	(PC ← PC + 1)!
+(R1 ← R1 + R4)	(PC ← PC + 1)!
+(RA ← R4)	(R2 ← RA + R2)	(PC ← PC + 1)!
+(RA ← R4)	(R3 ← RA + R3)	(PC ← PC + 1)!
+(RA ← R4)	(R4 ← RA + R4)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R2; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R2; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R2; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R2; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R2; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R3; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R3; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R3; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R3; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R3; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R4; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R4; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R4; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R4; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados + R4; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados + R2)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados + R3)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados + R4)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados + R2)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados + R3)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados + R4)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados + R2)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados + R3)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados + R4)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados + R2)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados + R3)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados + R4)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados + RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados + R2)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados + R3)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados + R4)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados + RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R0 ← R0 - RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R1 ← R1 - RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R2 ← R2 - Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R3 ← R3 - Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R4 ← R4 - Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(R0 ← R0 - RB)	(PC ← PC + 1)!
+(RB ← R0)	(R1 ← R1 - RB)	(PC ← PC + 1)!
+(R2 ← R2 - R0)	(PC ← PC + 1)!
+(R3 ← R3 - R0)	(PC ← PC + 1)!
+(R4 ← R4 - R0)	(PC ← PC + 1)!
+(RB ← R1)	(R0 ← R0 - RB)	(PC ← PC + 1)!
+(RB ← R1)	(R1 ← R1 - RB)	(PC ← PC + 1)!
+(R2 ← R2 - R1)	(PC ← PC + 1)!
+(R3 ← R3 - R1)	(PC ← PC + 1)!
+(R4 ← R4 - R1)	(PC ← PC + 1)!
+(R0 ← R0 - R2)	(PC ← PC + 1)!
+(R1 ← R1 - R2)	(PC ← PC + 1)!
+(RA ← R2)	(R2 ← R2 - RA)	(PC ← PC + 1)!
+(RA ← R2)	(R3 ← R3 - RA)	(PC ← PC + 1)!
+(RA ← R2)	(R4 ← R4 - RA)	(PC ← PC + 1)!
+(R0 ← R0 - R3)	(PC ← PC + 1)!
+(R1 ← R1 - R3)	(PC ← PC + 1)!
+(RA ← R3)	(R2 ← R2 - RA)	(PC ← PC + 1)!
+(RA ← R3)	(R3 ← R3 - RA)	(PC ← PC + 1)!
+(RA ← R3)	(R4 ← R4 - RA)	(PC ← PC + 1)!
+(R0 ← R0 - R4)	(PC ← PC + 1)!
+(R1 ← R1 - R4)	(PC ← PC + 1)!
+(RA ← R4)	(R2 ← R2 - RA)	(PC ← PC + 1)!
+(RA ← R4)	(R3 ← R3 - RA)	(PC ← PC + 1)!
+(RA ← R4)	(R4 ← R4 - RA)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R2; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R2; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R2; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R2; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R2; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R3; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R3; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R3; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R3; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R3; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R4; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R4; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R4; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R4; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados - R4; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R2 ← R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R3 ← R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R4 ← R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R2 ← R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R3 ← R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R4 ← R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R2 ← R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R3 ← R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R4 ← R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R2 ← R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R3 ← R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R4 ← R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R2 ← R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R3 ← R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R4 ← R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados - RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R0 ← Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R1 ← Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(Rend ← R0; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(Rend ← R1; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(Rend ← R2; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(Rend ← R3; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(Rend ← R4; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(R1 ← R0)	(PC ← PC + 1)!
+(R2 ← R0)	(PC ← PC + 1)!
+(R3 ← R0)	(PC ← PC + 1)!
+(R4 ← R0)	(PC ← PC + 1)!
+(R0 ← R1)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(R2 ← R1)	(PC ← PC + 1)!
+(R3 ← R1)	(PC ← PC + 1)!
+(R4 ← R1)	(PC ← PC + 1)!
+(R0 ← R2)	(PC ← PC + 1)!
+(R1 ← R2)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(R3 ← R2)	(PC ← PC + 1)!
+(R4 ← R2)	(PC ← PC + 1)!
+(R0 ← R3)	(PC ← PC + 1)!
+(R1 ← R3)	(PC ← PC + 1)!
+(R2 ← R3)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(R4 ← R3)	(PC ← PC + 1)!
+(R0 ← R4)	(PC ← PC + 1)!
+(R1 ← R4)	(PC ← PC + 1)!
+(R2 ← R4)	(PC ← PC + 1)!
+(R3 ← R4)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(Rend ← R0)	(Rdados ← R0; Esc)	(PC ← PC + 1)!
+(Rend ← R1)	(Rdados ← R0; Esc)	(PC ← PC + 1)!
+(Rend ← R2)	(Rdados ← R0; Esc)	(PC ← PC + 1)!
+(Rend ← R3)	(Rdados ← R0; Esc)	(PC ← PC + 1)!
+(Rend ← R4)	(Rdados ← R0; Esc)	(PC ← PC + 1)!
+(Rend ← R0)	(Rdados ← R1; Esc)	(PC ← PC + 1)!
+(Rend ← R1)	(Rdados ← R1; Esc)	(PC ← PC + 1)!
+(Rend ← R2)	(Rdados ← R1; Esc)	(PC ← PC + 1)!
+(Rend ← R3)	(Rdados ← R1; Esc)	(PC ← PC + 1)!
+(Rend ← R4)	(Rdados ← R1; Esc)	(PC ← PC + 1)!
+(Rend ← R0)	(Rdados ← R2; Esc)	(PC ← PC + 1)!
+(Rend ← R1)	(Rdados ← R2; Esc)	(PC ← PC + 1)!
+(Rend ← R2)	(Rdados ← R2; Esc)	(PC ← PC + 1)!
+(Rend ← R3)	(Rdados ← R2; Esc)	(PC ← PC + 1)!
+(Rend ← R4)	(Rdados ← R2; Esc)	(PC ← PC + 1)!
+(Rend ← R0)	(Rdados ← R3; Esc)	(PC ← PC + 1)!
+(Rend ← R1)	(Rdados ← R3; Esc)	(PC ← PC + 1)!
+(Rend ← R2)	(Rdados ← R3; Esc)	(PC ← PC + 1)!
+(Rend ← R3)	(Rdados ← R3; Esc)	(PC ← PC + 1)!
+(Rend ← R4)	(Rdados ← R3; Esc)	(PC ← PC + 1)!
+(Rend ← R0)	(Rdados ← R4; Esc)	(PC ← PC + 1)!
+(Rend ← R1)	(Rdados ← R4; Esc)	(PC ← PC + 1)!
+(Rend ← R2)	(Rdados ← R4; Esc)	(PC ← PC + 1)!
+(Rend ← R3)	(Rdados ← R4; Esc)	(PC ← PC + 1)!
+(Rend ← R4)	(Rdados ← R4; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R0 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R1 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R0 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R1 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R0 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R1 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R0 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R1 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R0 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R1 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rend ← R1; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rend ← R2; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rend ← R3; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rend ← R4; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rend ← R0; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rend ← R2; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rend ← R3; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rend ← R4; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rend ← R0; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rend ← R1; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rend ← R3; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rend ← R4; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rend ← R0; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rend ← R1; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rend ← R2; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rend ← R4; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rend ← R0; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rend ← R1; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rend ← R2; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rend ← R3; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R0 - RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R1 - RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R2 - Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R3 - Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R4 - Rdados)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R0)	(R0 - RB)	(PC ← PC + 1)!
+(RB ← R0)	(R1 - RB)	(PC ← PC + 1)!
+(R2 - R0)	(PC ← PC + 1)!
+(R3 - R0)	(PC ← PC + 1)!
+(R4 - R0)	(PC ← PC + 1)!
+(RB ← R1)	(R0 - RB)	(PC ← PC + 1)!
+(RB ← R1)	(R1 - RB)	(PC ← PC + 1)!
+(R2 - R1)	(PC ← PC + 1)!
+(R3 - R1)	(PC ← PC + 1)!
+(R4 - R1)	(PC ← PC + 1)!
+(R0 - R2)	(PC ← PC + 1)!
+(R1 - R2)	(PC ← PC + 1)!
+(RA ← R2)	(R2 - RA)	(PC ← PC + 1)!
+(RA ← R2)	(R3 - RA)	(PC ← PC + 1)!
+(RA ← R2)	(R4 - RA)	(PC ← PC + 1)!
+(R0 - R3)	(PC ← PC + 1)!
+(R1 - R3)	(PC ← PC + 1)!
+(RA ← R3)	(R2 - RA)	(PC ← PC + 1)!
+(RA ← R3)	(R3 - RA)	(PC ← PC + 1)!
+(RA ← R3)	(R4 - RA)	(PC ← PC + 1)!
+(R0 - R4)	(PC ← PC + 1)!
+(R1 - R4)	(PC ← PC + 1)!
+(RA ← R4)	(R2 - RA)	(PC ← PC + 1)!
+(RA ← R4)	(R3 - RA)	(PC ← PC + 1)!
+(RA ← R4)	(R4 - RA)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados - R2)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados - R2)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados - R2)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados - R2)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados - R2)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados - R3)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados - R3)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados - R3)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados - R3)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados - R3)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados - R4)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados - R4)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados - R4)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados - R4)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados - R4)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(RB - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R2 - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R3 - Rdados)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R4 - Rdados)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados - RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados - RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R0 ← R0 and RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R1 ← R1 and RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados and R2)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados and R3)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados and R4)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(R0 ← R0 and RB)	(PC ← PC + 1)!
+(RB ← R0)	(R1 ← R1 and RB)	(PC ← PC + 1)!
+(R2 ← R0 and R2)	(PC ← PC + 1)!
+(R3 ← R0 and R3)	(PC ← PC + 1)!
+(R4 ← R0 and R4)	(PC ← PC + 1)!
+(RB ← R1)	(R0 ← R0 and RB)	(PC ← PC + 1)!
+(RB ← R1)	(R1 ← R1 and RB)	(PC ← PC + 1)!
+(R2 ← R1 and R2)	(PC ← PC + 1)!
+(R3 ← R1 and R3)	(PC ← PC + 1)!
+(R4 ← R1 and R4)	(PC ← PC + 1)!
+(R0 ← R0 and R2)	(PC ← PC + 1)!
+(R1 ← R1 and R2)	(PC ← PC + 1)!
+(RA ← R2)	(R2 ← RA and R2)	(PC ← PC + 1)!
+(RA ← R2)	(R3 ← RA and R3)	(PC ← PC + 1)!
+(RA ← R2)	(R4 ← RA and R4)	(PC ← PC + 1)!
+(R0 ← R0 and R3)	(PC ← PC + 1)!
+(R1 ← R1 and R3)	(PC ← PC + 1)!
+(RA ← R3)	(R2 ← RA and R2)	(PC ← PC + 1)!
+(RA ← R3)	(R3 ← RA and R3)	(PC ← PC + 1)!
+(RA ← R3)	(R4 ← RA and R4)	(PC ← PC + 1)!
+(R0 ← R0 and R4)	(PC ← PC + 1)!
+(R1 ← R1 and R4)	(PC ← PC + 1)!
+(RA ← R4)	(R2 ← RA and R2)	(PC ← PC + 1)!
+(RA ← R4)	(R3 ← RA and R3)	(PC ← PC + 1)!
+(RA ← R4)	(R4 ← RA and R4)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R2; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R2; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R2; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R2; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R2; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R3; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R3; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R3; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R3; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R3; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R4; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R4; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R4; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R4; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados and R4; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados and R2)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados and R3)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados and R4)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados and R2)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados and R3)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados and R4)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados and R2)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados and R3)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados and R4)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados and R2)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados and R3)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados and R4)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados and RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados and R2)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados and R3)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados and R4)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados and RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R0 ← R0 or RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(R1 ← R1 or RB)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados or R2)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados or R3)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados or R4)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(PC ← PC + 1 1)	(Rend ← PC; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(R0 ← R0 or RB)	(PC ← PC + 1)!
+(RB ← R0)	(R1 ← R1 or RB)	(PC ← PC + 1)!
+(R2 ← R0 or R2)	(PC ← PC + 1)!
+(R3 ← R0 or R3)	(PC ← PC + 1)!
+(R4 ← R0 or R4)	(PC ← PC + 1)!
+(RB ← R1)	(R0 ← R0 or RB)	(PC ← PC + 1)!
+(RB ← R1)	(R1 ← R1 or RB)	(PC ← PC + 1)!
+(R2 ← R1 or R2)	(PC ← PC + 1)!
+(R3 ← R1 or R3)	(PC ← PC + 1)!
+(R4 ← R1 or R4)	(PC ← PC + 1)!
+(R0 ← R0 or R2)	(PC ← PC + 1)!
+(R1 ← R1 or R2)	(PC ← PC + 1)!
+(RA ← R2)	(R2 ← RA or R2)	(PC ← PC + 1)!
+(RA ← R2)	(R3 ← RA or R3)	(PC ← PC + 1)!
+(RA ← R2)	(R4 ← RA or R4)	(PC ← PC + 1)!
+(R0 ← R0 or R3)	(PC ← PC + 1)!
+(R1 ← R1 or R3)	(PC ← PC + 1)!
+(RA ← R3)	(R2 ← RA or R2)	(PC ← PC + 1)!
+(RA ← R3)	(R3 ← RA or R3)	(PC ← PC + 1)!
+(RA ← R3)	(R4 ← RA or R4)	(PC ← PC + 1)!
+(R0 ← R0 or R4)	(PC ← PC + 1)!
+(R1 ← R1 or R4)	(PC ← PC + 1)!
+(RA ← R4)	(R2 ← RA or R2)	(PC ← PC + 1)!
+(RA ← R4)	(R3 ← RA or R3)	(PC ← PC + 1)!
+(RA ← R4)	(R4 ← RA or R4)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R0)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(RB ← R1)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R2; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R2; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R2; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R2; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R2; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R3; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R3; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R3; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R3; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R3; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R4; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R4; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R4; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R4; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← Rdados or R4; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados or R2)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados or R3)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados or R4)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados or R2)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados or R3)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados or R4)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados or R2)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados or R3)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados or R4)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados or R2)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados or R3)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados or R4)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R0)	(R0 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← R1)	(R1 ← Rdados or RB)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R2 ← Rdados or R2)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R3 ← Rdados or R3)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(R4 ← Rdados or R4)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R4; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R0; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R1; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R2; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rend ← R3; Lê)	(Rdados ← Inf.Lida2)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(RB ← Rdados)	(Rdados ← Rdados or RB; Esc)	(PC ← PC + 1)!
+(R0 ← not R0)	(PC ← PC + 1)!
+(R1 ← not R1)	(PC ← PC + 1)!
+(R2 ← not R2)	(PC ← PC + 1)!
+(R3 ← not R3)	(PC ← PC + 1)!
+(R4 ← not R4)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← not Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← not Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← not Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← not Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← not Rdados; Esc)	(PC ← PC + 1)!
+(R0 ← 0)	(PC ← PC + 1)!
+(R1 ← 0)	(PC ← PC + 1)!
+(R2 ← 0)	(PC ← PC + 1)!
+(R3 ← 0)	(PC ← PC + 1)!
+(R4 ← 0)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← 0; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← 0; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← 0; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← 0; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← 0; Esc)	(PC ← PC + 1)!
+(R0 ← neg R0)	(PC ← PC + 1)!
+(R1 ← neg R1)	(PC ← PC + 1)!
+(R2 ← neg R2)	(PC ← PC + 1)!
+(R3 ← neg R3)	(PC ← PC + 1)!
+(R4 ← neg R4)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← neg Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← neg Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← neg Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← neg Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← neg Rdados; Esc)	(PC ← PC + 1)!
+(R0 ← shl R0)	(PC ← PC + 1)!
+(R1 ← shl R1)	(PC ← PC + 1)!
+(R2 ← shl R2)	(PC ← PC + 1)!
+(R3 ← shl R3)	(PC ← PC + 1)!
+(R4 ← shl R4)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shl Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shl Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shl Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shl Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R4; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shl Rdados; Esc)	(PC ← PC + 1)!
+(R0 ← shr R0)	(PC ← PC + 1)!
+(R1 ← shr R1)	(PC ← PC + 1)!
+(R2 ← shr R2)	(PC ← PC + 1)!
+(R3 ← shr R3)	(PC ← PC + 1)!
+(R4 ← shr R4)	(PC ← PC + 1)!
+(Rend ← R0; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shr Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R1; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shr Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R2; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shr Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shr Rdados; Esc)	(PC ← PC + 1)!
+(Rend ← R3; Lê)	(Rdados ← Inf.Lida)	(Rdados ← shr Rdados; Esc)	(PC ← PC + 1)!
